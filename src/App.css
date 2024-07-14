@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+.App {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  min-height: 100vh;
+  background-color: #f5f5f5;
+  min-width: 100vw;
+  /* border: 2px solid yellow */
+}
+
+.App-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.left-side {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* padding: 20px; */
+  /* border: 2px solid red; */
+  height: 100vh;
+  /* width: 60vw; */
+}
+
+.right-side {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  
+}
+
+.mri-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.dropzone {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 600px;
+  height: 479px;
+  border: 2px dashed #cccccc;
+  border-radius: 10px;
+  background-color: #ffffff;
+  margin: 20px 0;
+  cursor: pointer;
+}
+
+.dropzone p {
+  margin: 0;
+  font-size: 16px;
+  color: #888888;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #ffffff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: "Inter", sans-serif;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+p {
+  margin: 10px 0 0;
+  color: #333333;
+  font-size: 14px;
+  font-family: "Inter", sans-serif;
+}
+h1 {
+  font-family: "Inter", sans-serif;
+}
